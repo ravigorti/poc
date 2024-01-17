@@ -1,0 +1,8 @@
+{
+    "columns": ["pt.policy_id", "pt.first_name", "pt.last_name", "ptxn.premium_amt"], 
+    "tables": [
+      {"name": "Policy_table", "alias": "pt"},
+      {"name": "Policy_Transaction", "alias": "ptxn", "join_condition": "pt.transaction_id = ptxn.transaction_id"}
+    ]
+}
+  

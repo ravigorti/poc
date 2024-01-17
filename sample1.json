@@ -1,0 +1,7 @@
+{
+    "columns": {"Policy_table":["policy_id","first_name","last_name"],
+                "Policy_Transaction":["premium_amt"],
+                "Policy_Coverage":["policy_start_dt","policy_end_dt"]
+               },
+    "joining_sequence":[["Policy_table","Policy_Transaction"],["Policy_table","Policy_Coverage"]]
+}
